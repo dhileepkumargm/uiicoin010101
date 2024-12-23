@@ -34,7 +34,7 @@
   },
   "scripts": {
     "start": "cross-env GENERATE_SOURCEMAP=false PORT=3002 react-scripts start",
-    "build": "npm install && cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
